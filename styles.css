@@ -17,7 +17,7 @@
     z-index: 1;
 }
 .banner{
-    position: fixed;
+    position: absolute;
     left: 0;
     right: 0;
     margin: auto;
@@ -32,6 +32,9 @@
 }
 .banner-top{
     top:0;
+}
+.banner-bottom{
+    bottom: 0;
 }
 #menu{
     float: left;
